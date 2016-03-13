@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Enregistrement Statut</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="notes_text_view">Remarques</string>
+    <string name="notes_edit_text_hint">Entrez Remarques</string>
+    <string name="title_settings_activity">Paramètres</string>
+    <string name="text_format_summary">Texte des informations de formatage</string>
+    <string name="text_format_title">Affichage de texte</string>
+    <string name="text_format_bold_title">Assurez-Text Bold</string>
+    <string name="text_format_bold_summary">Rend le texte de la note en gras</string>
+    <string name="text_size_title">Taille du texte</string>
+    <string name="text_size_summary">Choisissez la taille du texte</string>
+    <string name="language_information_summary">L\'information de langue</string>
+    <string name="language_information_title">La langue</string>
+    <string name="change_language_title">Changer de langue</string>
+    <string name="change_language_summary">Choisissez une langue</string>
+</resources>

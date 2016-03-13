@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:summary="@string/text_format_summary"
+        android:title="@string/text_format_title">
+        <CheckBoxPreference
+            android:key="pref_text_bold"
+            android:title="@string/text_format_bold_title"
+            android:summary="@string/text_format_bold_summary"
+            android:defaultValue="false" />
+
+        <ListPreference
+            android:key="pref_text_size"
+            android:title="@string/text_size_title"
+            android:summary="@string/text_size_summary"
+            android:entries="@array/text_size_entries"
+            android:entryValues="@array/text_size_values"
+            android:defaultValue="16"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="@string/language_information_summary"
+        android:title="@string/language_information_title">
+
+        <ListPreference
+            android:key="pref_language"
+            android:title="@string/change_language_title"
+            android:summary="@string/change_language_summary"
+            android:entries="@array/language_entries"
+            android:entryValues="@array/language_values"
+            android:defaultValue="en"/>
+
+    </PreferenceCategory>
+ </PreferenceScreen>

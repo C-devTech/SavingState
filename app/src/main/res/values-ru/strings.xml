@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Сохранение статуса</string>
+    <string name="action_settings">настройки</string>
+    <string name="notes_text_view">Заметки</string>
+    <string name="notes_edit_text_hint">Введите Примечания</string>
+    <string name="title_settings_activity">настройки</string>
+    <string name="text_format_summary">Текстовая информация форматирования</string>
+    <string name="text_format_title">Текстовый дисплей</string>
+    <string name="text_format_bold_title">Сделать текст жирным шрифтом</string>
+    <string name="text_format_bold_summary">Делает текст жирным шрифтом примечание</string>
+    <string name="text_size_title">Размер текста</string>
+    <string name="text_size_summary">Выберите размер текста</string>
+    <string name="language_information_summary">информационный язык</string>
+    <string name="language_information_title">язык</string>
+    <string name="change_language_title">Изменить язык</string>
+    <string name="change_language_summary">Выберите язык</string>
+</resources>

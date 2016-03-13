@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Saving State</string>
+    <string name="action_settings">Settings</string>
+    <string name="notes_text_view">Notes</string>
+    <string name="notes_edit_text_hint">Enter Notes</string>
+    <string name="title_settings_activity">Settings</string>
+    <string name="text_format_summary">Text formatting information</string>
+    <string name="text_format_title">Text Display</string>
+    <string name="text_format_bold_title">Make Text Bold</string>
+    <string name="text_format_bold_summary">Makes the note text bold</string>
+    <string name="text_size_title">Text Size</string>
+    <string name="text_size_summary">Pick the text size</string>
+    <string name="language_information_summary">Language information</string>
+    <string name="language_information_title">Language</string>
+    <string name="change_language_title">Change Language</string>
+    <string name="change_language_summary">Choose a language</string>
+</resources>

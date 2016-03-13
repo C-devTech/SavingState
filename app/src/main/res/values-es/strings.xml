@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ahorro de Estado</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="notes_text_view">Notas</string>
+    <string name="notes_edit_text_hint">Introducir Notas</string>
+    <string name="title_settings_activity">Ajustes</string>
+    <string name="text_format_summary">La información de formato de texto</string>
+    <string name="text_format_title">Visualización de texto</string>
+    <string name="text_format_bold_title">Hacer texto en negrilla</string>
+    <string name="text_format_bold_summary">Hace que el texto de la nota en negrita</string>
+    <string name="text_size_title">Tamaño del texto</string>
+    <string name="text_size_summary">Escoja el tamaño del texto</string>
+    <string name="language_information_summary">Información sobre el idioma</string>
+    <string name="language_information_title">Idioma</string>
+    <string name="change_language_title">Cambiar idioma</string>
+    <string name="change_language_summary">Elija un idioma</string>
+</resources>
