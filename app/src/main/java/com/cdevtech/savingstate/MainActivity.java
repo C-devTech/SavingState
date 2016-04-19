@@ -164,8 +164,9 @@ public class MainActivity extends AppCompatActivity {
         // Shared key value pairs are here
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
-        // Get the value stored in the list preference or give a value of 16
-        String langVal = sharedPreferences.getString("pref_language", "EMPTY");
+        // Get the value stored in the list preference or give a value of 0
+        int lang = sharedPreferences.getInt("pref_language", 0);
+        String langVal = getResources().getStringArray(R.array.language_values)[lang];
 
         Configuration config = getBaseContext().getResources().getConfiguration();
 

@@ -22,13 +22,10 @@
         android:summary="@string/language_information_summary"
         android:title="@string/language_information_title">
 
-        <ListPreference
+        <com.cdevtech.savingstate.LanguagePreference
             android:key="pref_language"
             android:title="@string/change_language_title"
             android:summary="@string/change_language_summary"
-            android:entries="@array/language_entries"
-            android:entryValues="@array/language_values"
-            android:defaultValue="en"/>
-
+            android:defaultValue="0"/>
     </PreferenceCategory>
  </PreferenceScreen>
