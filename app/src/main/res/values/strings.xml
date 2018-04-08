@@ -15,4 +15,7 @@
     <string name="language_information_title">Language</string>
     <string name="change_language_title">Change Language</string>
     <string name="change_language_summary">Choose a language</string>
+
+    <string name="response_get_latest_events">&lt;Response Message=\"GetLatestEvents\" Data=\"10\"/&gt;</string>
+    <string name="response_get_image_by_time">&lt;Response Message=\"GetImageByTim\e" Data=\"%s\"/&gt;</string>
 </resources>

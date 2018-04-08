@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
         });
 
         notesEditText = (EditText) findViewById(R.id.notes_edit_text);
+        String string = getResources().getString(R.string.response_get_latest_events);
+        String string2 = getResources().getString(R.string.response_get_image_by_time, 10);
+        notesEditText.setText(string);
+        notesEditText.setText(string2);
 
         // Make sure there is data to retrieve
         if (savedInstanceState != null) {
@@ -165,8 +170,9 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
 
         // Get the value stored in the list preference or give a value of 0
-        int lang = sharedPreferences.getInt("pref_language", 0);
-        String langVal = getResources().getStringArray(R.array.language_values)[lang];
+       // int lang = sharedPreferences.getInt("pref_language", 0);
+       // String langVal = getResources().getStringArray(R.array.language_values)[lang];
+        String langVal = sharedPreferences.getString("pref_language", "en");
 
         Configuration config = getBaseContext().getResources().getConfiguration();
 

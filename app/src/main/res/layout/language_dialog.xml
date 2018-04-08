@@ -10,5 +10,6 @@
         android:id="@+id/spinner1"
         android:entries="@array/language_entries"
         android:prompt="@string/change_language_title"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        />
 </LinearLayout>
